@@ -1,11 +1,11 @@
 {
   "name": "s22-backend-ws",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "sample backend code for spring 2022 cs35L LA workshop",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "db": "sudo mongod --dbpath=data 1>&-",
+    "db": "mkdir -p data && sudo mongod --dbpath=data 1>&-",
     "start": "node src/index.js",
     "dev": "npm run db & npm start"
   },
