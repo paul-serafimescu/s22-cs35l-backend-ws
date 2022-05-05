@@ -18,3 +18,6 @@ npm run dev
 ```
 
 ### Credits
+Paul Serafimescu
+
+*inspired by work of Winter 2021 CS35L LAs*
